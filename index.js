@@ -29,3 +29,11 @@ function driversByRevenue(drivers) {
 
   return z
 }
+
+function driversByName(drivers) {
+  let z = [...drivers].sort(function(c1, c2){
+    return c1.name.localeCompare(c2.name)
+  })
+
+  return z
+}
