@@ -47,6 +47,6 @@ function totalRevenue(drivers) {
 }
 
 function averageRevenue(drivers) {
-  let averageRevenue = totalRevenue/5
+  let averageRevenue = totalRevenue(drivers)/5
 return averageRevenue
   }
